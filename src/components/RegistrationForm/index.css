@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+}
+.title {
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+.container {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.label-name {
+  font-size: 10px;
+
+  margin-top: 5px;
+}
+.label {
+  width: 100%;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  height: 28px;
+  padding-left: 5px;
+  color: #475569;
+}
+.button {
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 4px;
+  height: 25px;
+  font-size: 10px;
+}
+.button-container {
+  text-align: center;
+}
+.success-name {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.success-image {
+  width: 50px;
+}
+.error {
+  font-size: 10px;
+  color: #ea580c;
+}
